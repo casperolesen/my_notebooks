@@ -1,0 +1,5 @@
+C:\Users\Casper\datamatiker\python_cko\docker_notebooks\notebooks\my_notebooks\README.md
+C:\Users\Casper\datamatiker\python_cko\docker_notebooks\notebooks\my_notebooks\requirements.txt
+C:\Users\Casper\datamatiker\python_cko\docker_notebooks\notebooks\my_notebooks\template.ipynb
+C:\Users\Casper\datamatiker\python_cko\docker_notebooks\notebooks\my_notebooks\Week_1.ipynb
+C:\Users\Casper\datamatiker\python_cko\docker_notebooks\notebooks\my_notebooks\Week_2.ipynb
