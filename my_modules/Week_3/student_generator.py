@@ -41,6 +41,7 @@ def generate_random_students(n):
         image_url = 'http://myprofile.com/myimage{}.jpg'.format(str(i))
         students.append(Student(student_name, gender, data_sheet, image_url))
 
+    print("{} students created!".format(len(students)))
     return students
 
 def save_students_csv(students):
@@ -57,6 +58,8 @@ def save_students_csv(students):
         for s in students:
             for c in s.data_sheet.courses:
                 output_writer.writerow([s.name, s.gender, c.name, c.teacher, c.ETCS, c.classroom, c.grade, s.image_url])
+    
+    return print("Saved to file!")
 
 def get_students_from_csv():
     students = []
@@ -76,18 +79,8 @@ def get_students_from_csv():
 
     return students
 
-    # for s in students:
-    #     print("{} {} {}".format( s.name, s.image_url, str(s.get_avg_grade()) ))
-
-    # students_sorted = sorted(students, key=lambda student: student.get_avg_grade(), reverse=True)
-    # print("Sorted by grade:")
-    # for s in students_sorted:
-    #     print("{} {} {}".format( s.name, s.image_url, str(s.get_avg_grade()) ))
-
 if __name__ == "__main__":
     students = generate_random_students(100)
     print("{} students created!".format(len(students)))
     save_students_csv(students)
     print("Saved to file!")
-
-    get_students_from_csv()
