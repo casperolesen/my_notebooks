@@ -13,12 +13,6 @@ def print_file_content(**kwargs):
 def write_list_to_file(**kwargs):
     output_file = kwargs['output_file']
     lst = kwargs['lst']
-
-    #file_check = os.getcwd()
-    #print(file_check)
-
-    #newfile = Path(Path.cwd() / 'docker_notebooks' / 'notebooks' / 'my_notebooks' / 'downloads' / output_file)
-    #file_check = Path(Path.cwd() / 'docker_notebooks' / 'notebooks' / 'my_notebooks' / 'downloads' / lst)
     content = None
     
     if isinstance(lst, list):
@@ -35,7 +29,6 @@ def write_list_to_file(**kwargs):
 def read_file(**kwargs):
     csv_list = []
     input_file = kwargs['input_file']
-    #filename = './downloads/' + input_file
     with open(input_file) as f:
         reader = csv.reader(f)
         #header_row = next(reader)

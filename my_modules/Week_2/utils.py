@@ -11,12 +11,14 @@ def files_in_folder(**kwargs):
     :keyword output_file: Name of file if you want to save the list (file_name.txt) 
     """
 
-    path = kwargs['path']
+    #path = kwargs['path']
+    print(kwargs['path'])
     output_file = kwargs['output_file']
     dirs = os.listdir(path)  # all files and dirs in a path
     files = [join(path, file) for file in dirs if isfile(join(path, file))]
 
     if kwargs['output_file'] == None:
+        #print('no output_file: returning files')
         return files
     else:
         output_path = join(path, r"downloads\{}".format(output_file))
@@ -103,8 +105,9 @@ if __name__ == "__main__":
 
     # files_in_folder parser
     parser_files_in_folder = subparsers.add_parser('files_in_folder')
-    parser_files_in_folder.add_argument(
-        '-path', default=r"C:\Users\Casper\datamatiker\python_cko\docker_notebooks\notebooks\my_notebooks")
+    #parser_files_in_folder.add_argument(
+        #'-path', default=r"C:\Users\Casper\datamatiker\python_cko\docker_notebooks\notebooks\my_notebooks")
+    parser_files_in_folder.add_argument('-path', default="./downloasdfsfds")
     parser_files_in_folder.add_argument('-output_file', default=None)
     parser_files_in_folder.set_defaults(func=files_in_folder)
 

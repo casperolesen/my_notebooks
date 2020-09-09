@@ -1,7 +1,8 @@
 import utils
 
 # files_in_folder
-utils.files_in_folder(path = r"C:\Users\Casper\datamatiker\python_cko\docker_notebooks\notebooks\my_notebooks", output_file = 'output_file.txt')
+#utils.files_in_folder(path = r"C:\Users\Casper\datamatiker\python_cko\docker_notebooks\notebooks\my_notebooks", output_file = 'output_file.txt')
+utils.files_in_folder(path = "./downloads", output_file = 'output_filesdf.txt')
 
 # files_in_folder_rec
 utils.files_in_folder_rec(path=r"C:\Users\Casper\datamatiker\python_cko\docker_notebooks\notebooks\my_notebooks")
