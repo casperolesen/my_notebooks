@@ -61,8 +61,11 @@ class MyIterator():
             
         return words_count, vowels_count, vowels_count / words_count
 
-    def hardest_read():
-        pass
+    def hardest_read(self, workers=multiprocessing.cpu_count()):
+        with ProcessPoolExecutor(workers) as ex:
+            res = ex.map(self.avg_vowels, self.filenames)
+        return list(res)
+    
 
     def _read_linewise(self, filename):
         with open(r'downloads/temp/books/{}.txt'.format(filename)) as fp:
