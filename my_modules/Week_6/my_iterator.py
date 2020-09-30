@@ -59,13 +59,18 @@ class MyIterator():
                     if char.lower() in 'aeiou':
                         vowels_count += 1
             
-        return words_count, vowels_count, vowels_count / words_count
+        #return words_count, vowels_count, vowels_count / words_count
+        return text, vowels_count / words_count
 
     def hardest_read(self, workers=multiprocessing.cpu_count()):
         with ProcessPoolExecutor(workers) as ex:
             res = ex.map(self.avg_vowels, self.filenames)
-        return list(res)
-    
+
+        res = list(res) # results from multiprocessing
+        names, vowels = zip(*res) # unzipping res of tuples into two lists
+        hardest_value = max(vowels) # find highest value in vowels list
+        answer = [item for item in res if hardest_value in item] # find the item in the list of tuple with hardest_value (returns a list)
+        return answer
 
     def _read_linewise(self, filename):
         with open(r'downloads/temp/books/{}.txt'.format(filename)) as fp:
