@@ -1,7 +1,9 @@
 import requests
+from urllib.parse import urlparse
 from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import ProcessPoolExecutor
 import multiprocessing
+from tqdm import tqdm
 
 class NotFoundException(Exception):
     pass
@@ -16,15 +18,18 @@ class MyIterator():
         if r.status_code == 404:
             raise NotFoundException
 
-        with open(r'downloads/temp/books/{}.txt'.format(filename), 'w') as file_object:
+        with open(r'downloads/temp/books/{}'.format(filename), 'w') as file_object:
             file_object.write(r.text)
         
         return r.status_code
 
     def multi_download(self):
-        self.filenames = ['file1', 'file2', 'file3']
+        # get last part of path in url
+        self.filenames = [urlparse(url).path.split('/')[-1] for url in self.url_list]
+        #self.filenames = ['file1', 'file2', 'file3']
         with ThreadPoolExecutor() as ex:
-            res = ex.map(self.download, self.url_list, self.filenames)
+            #res = ex.map(self.download, self.url_list, self.filenames)
+            res = tqdm(ex.map(self.download, self.url_list, self.filenames), total=len(self.url_list))
             return list(res)
 
     def __iter__(self):
@@ -64,7 +69,8 @@ class MyIterator():
 
     def hardest_read(self, workers=multiprocessing.cpu_count()):
         with ProcessPoolExecutor(workers) as ex:
-            res = ex.map(self.avg_vowels, self.filenames)
+            #res = ex.map(self.avg_vowels, self.filenames)
+            res = tqdm(ex.map(self.avg_vowels, self.filenames), total=len(self.filenames))
 
         res = list(res) # results from multiprocessing
         names, vowels = zip(*res) # unzipping res of tuples into two lists
@@ -73,6 +79,6 @@ class MyIterator():
         return answer
 
     def _read_linewise(self, filename):
-        with open(r'downloads/temp/books/{}.txt'.format(filename)) as fp:
+        with open(r'downloads/temp/books/{}'.format(filename)) as fp:
             for line in fp:
                 yield line
