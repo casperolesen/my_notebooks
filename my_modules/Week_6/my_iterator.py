@@ -5,6 +5,7 @@ from concurrent.futures import ProcessPoolExecutor
 import multiprocessing
 from tqdm import tqdm
 
+
 class NotFoundException(Exception):
     pass
 
@@ -71,8 +72,9 @@ class MyIterator():
         with ProcessPoolExecutor(workers) as ex:
             #res = ex.map(self.avg_vowels, self.filenames)
             res = tqdm(ex.map(self.avg_vowels, self.filenames), total=len(self.filenames))
-
+            
         res = list(res) # results from multiprocessing
+
         names, vowels = zip(*res) # unzipping res of tuples into two lists
         hardest_value = max(vowels) # find highest value in vowels list
         answer = [item for item in res if hardest_value in item] # find the item in the list of tuple with hardest_value (returns a list)
