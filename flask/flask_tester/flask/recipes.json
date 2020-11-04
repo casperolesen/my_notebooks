@@ -1,0 +1,333 @@
+{
+    "recipes": {
+        "1": {
+            "id": 1,
+            "name": "Simple sauerkraut",
+            "preparation_time": 60,
+            "directions": [
+                "Thoroughly wash a large tub or bowl (mine was the size of a small washing- up bowl), then rinse with boiling water from the kettle. Make sure that your hands, and everything else coming into contact with the cabbage, are very clean. It’s wise to use a container that will comfortably fit the softened cabbage, allowing several inches of room at the top to avoid overflow.",
+                "Shred the cabbage thinly – a food processor makes light work of this. Layer the cabbage and the salt in the tub or bowl. Massage the salt into the cabbage for 5 mins, wait 5 mins, then repeat. You should end up with a much-reduced volume of cabbage sitting in its own brine. Mix in the caraway seeds and the peppercorns",
+                "Cover the surface of the cabbage entirely with a sheet of cling film, then press out all the air bubbles from below. Weigh the cabbage down using a couple of heavy plates, or other weights that fit your bowl, and cover as much of the cabbage as possible. The level of the brine will rise to cover the cabbage a little. Cover the tub with its lid (or more cling film) and leave in a dark place at a cool room temperature (about 18-20C) for at least 5 days. It will be ready to eat after 5 days, but for maximum flavour leave the cabbage to ferment for anywhere between 2-6 weeks (or until the bubbling subsides).",
+                "Check the cabbage every day or so, releasing any gases that have built up as it ferments, and give the cabbage a stir to release the bubbles. If any scum forms, remove it, rinse the weights in boiling water and replace the cling film. You should see bubbles appearing within the cabbage, and possibly some foam on the top of the brine. It’s important to keep it at an even, cool room temperature – too cool and the ferment will take longer than you’d like, too warm and the sauerkraut may become mouldy or ferment too quickly, leading to a less than perfect result.",
+                "The cabbage will become increasingly sour the longer it’s fermented, so taste it now and again. When you like the flavour, transfer it to smaller sterilised jars and keep it in the fridge for up to 6 months."
+            ],
+            "category": "side dish",
+            "ingredient_list": [
+                {
+                    "name": "very firm, pale green or white cabbage",
+                    "amount": 2000
+                },
+                {
+                    "name": "coarse crystal sea salt",
+                    "amount": 6
+                },
+                {
+                    "name": "caraway seeds",
+                    "amount": 4
+                },
+                {
+                    "name": "peppercorns",
+                    "amount": 5
+                }
+            ]
+        },
+        "2": {
+            "id": 2,
+            "name": "jammy biscuits",
+            "preparation_time": 24,
+            "directions": [
+                "Heat oven to 190C/fan 170C/gas 5. Rub the flour, sugar and butter together until the mixture resembles breadcrumbs. Alternatively, you can do this in the food processor. Add enough egg to bring the mixture together to form a stiff dough.",
+                "Flour your hands and shape the dough into a tube, about 5cm in diameter. Cut into 2cm-thick slices and place on a large baking sheet. Space them out as the mixture will spread when baking.",
+                "Make a small indentation in the middle of each slice with the end of a wooden spoon, and drop a tsp of jam in the centre. Bake for 10-15 mins until slightly risen and just golden. Cool on a wire rack."
+            ],
+            "category": "baking",
+            "ingredient_list": [
+                {
+                    "name": "self-raising flour",
+                    "amount": 200
+                },
+                {
+                    "name": "caster sugar",
+                    "amount": 100
+                },
+                {
+                    "name": "butter",
+                    "amount": 100
+                },
+                {
+                    "name": "egg",
+                    "amount": 60
+                }
+            ]
+        },
+        "3": {
+            "id": 3,
+            "name": "squash risotto",
+            "preparation_time": 55,
+            "directions": [
+                "Heat oven to 200C/180C fan/ gas 6. Peel the squash and separate the bulbous seed-bearing section from the slender end. Chop the slender end into 2cm cubes, toss in half the oil, season lightly and roast in the oven, stirring occasionally, until golden brown on the outside and soft in the centre, about 30 mins. Cut the bulb in half and scrape out the seeds with a spoon – you can keep these to toast in the oven and sprinkle over salads. Chop the flesh into 2cm pieces. Warm the vegetable stock in a small pan, set over a low heat. Drop in squash and leave to gently poach.",
+                "While the squash is roasting, warm a medium-size frying pan over a gentle heat. Add the remaining olive oil and half the butter, followed by the onion. Cover and cook for 3 mins until the onion turns translucent. Stir in the celery, garlic, herbs and a few turns of pepper (no salt at this stage). Cover again and cook for a further 2 mins. Increase the heat slightly and stir in the rice. Stir, uncovered, for about 5 mins – this will help to develop the toasty aroma of the rice without burning the veg.",
+                "Turn up the heat, stir in the wine and let it bubble away to almost nothing. Reduce the heat and start adding the stock. Add one ladle at a time, stirring gently but constantly during each addition. The idea is to encourage the rice to absorb the liquid and soften, but also give up its starch to thicken the remaining broth. Don’t stir too aggressively or you will end up with a pan of mush. When the stock has been absorbed, it’s time to add the next ladleful and so on. It will take about 15 mins to reach the final ladle of stock. By this time the squash in the stock should have softened. Mash it up with the remaining stock and stir into the risotto.",
+                "Turn off the heat, dot the top of the risotto with remaining butter and most of the Parmesan, cover, leave to rest for 2 mins, then stir through and check the seasoning. Spoon the risotto into shallow bowls and sprinkle the roasted squash and leftover Parmesan on top. Serve with crusty bread and Sautéed spinach (below)."
+            ],
+            "category": "rice dish",
+            "ingredient_list": [
+                {
+                    "name": "butternut squash",
+                    "amount": 180
+                },
+                {
+                    "name": "light olive oil",
+                    "amount": 20
+                },
+                {
+                    "name": "vegetable stock",
+                    "amount": 600
+                },
+                {
+                    "name": "unsalted butter",
+                    "amount": 60
+                },
+                {
+                    "name": "finely chopped onion",
+                    "amount": 70
+                },
+                {
+                    "name": "finely chopped celery",
+                    "amount": 80
+                },
+                {
+                    "name": "risotto rice",
+                    "amount": 140
+                },
+                {
+                    "name": "white wine",
+                    "amount": 100
+                }
+            ]
+        },
+        "4": {
+            "id": 4,
+            "name": "vanilla icecream",
+            "preparation_time": 35,
+            "directions": ["pour the double cream in a bowl","stir til firm","whip eggs and sugar","turn the whipped cream gently into the egg mixture","add vanilla essense"
+               ],
+            "category": "desert",
+            "ingredient_list": [
+                {
+                    "name": "eggs",
+                    "amount": 3
+                },
+                {
+                    "name": "double cream",
+                    "amount": 500
+                },
+                {
+                    "name": "vanilla essense",
+                    "amount": 2
+                },
+                {
+                    "name": "sugar",
+                    "amount": 200
+                }
+            ]
+        },
+        "5": {
+            "id": 5,
+            "name": "fish stew ",
+            "preparation_time": 30,
+            "directions": [
+                "Heat the oil in a large pan, add the fennel seeds, carrots, celery and garlic, and cook for 5 mins until starting to soften. Tip in the leeks, tomatoes and stock, season and bring to the boil, then cover and simmer for 15-20 mins until the vegetables are tender and the sauce has thickened and reduced slightly.",
+                "Add the fish, scatter over the prawns and cook for 2 mins more until lightly cooked. Ladle into bowls and serve with a spoon."
+            ],
+            "category": "fish",
+            "ingredient_list": [
+                {
+                    "name": "can chopped tomatoes",
+                    "amount": 400
+                },
+                {
+                    "name": "fish stock",
+                    "amount": 500
+                },
+                {
+                    "name": "pollock fillets",
+                    "amount": 200
+                },
+                {
+                    "name": "king prawns",
+                    "amount": 85
+                },
+                {
+                    "name": "leeks",
+                    "amount": 200
+                },
+                {
+                    "name": "celery",
+                    "amount": 150
+                },
+                {
+                    "name": "light olive oil",
+                    "amount": 20
+                },
+                {
+                    "name": "garlic",
+                    "amount": 10
+                }
+            ]
+        },
+        "6": {
+            "id": 6,
+            "name": "Shortbread",
+            "preparation_time": 30,
+            "directions": ["Preheat the oven to 190C/375F/Gas 5","Beat the butter and the sugar together until smooth","Stir in the flour to get a smooth paste. Turn on to a work surface and gently roll out until the paste is 1cm/½in thick","Cut into rounds or fingers and place onto a baking tray. Sprinkle with caster sugar and chill in the fridge for 20 minutes.","Bake in the oven for 15-20 minutes, or until pale golden-brown. Set aside to cool on a wire rack"
+                ],
+            "category": "baking",
+            "ingredient_list": [
+                {
+                    "name": "butter",
+                    "amount": 125
+                },
+                {
+                    "name": "sugar",
+                    "amount": 55
+                },
+                {
+                    "name": "flour",
+                    "amount": 180
+                }
+            ]
+        },
+        "7": {
+            "id": 7,
+            "name": "Thai noodle soup",
+            "preparation_time": 30,
+            "directions": ["Blend the ginger, chilli, lemongrass, garlic and coriander in a food processor until quite finely chopped, adding a little vegetable oil if the paste is too dry.","Add the paste to a large shallow pan and cook for a few minutes to release the aromas, stirring frequently. Roughly crush some coriander seeds with a pestle and mortar and add to the paste with a pinch or two of turmeric and the vegetable stock and simmer for a few minutes. ","Meanwhile, pour some boiling water over the rice noodles in a bowl and let them sit until they have softened, about 4-5 minutes, then drain and set aside. ","To soften the heat of the sauce, add the coconut milk to the pan and bring back to the boil. Reduce the heat and simmer for a few minutes while you devein the prawns by cutting along the back of the prawn with a small sharp knife and removing the black 'thread' using the point of the knife. Add the prawns to the pan and cook for 2-3 minutes, or until pink and tender, finishing off with splashes of Thai fish sauce, to taste, and more chopped fresh coriander, to your taste.","To serve, divide the drained noodles between two bowls and ladle over the aromatic soup with the prawns and serve straightaway. Chicken, scallops or mushrooms are a great alternative to the prawns."],
+            "category": "main",
+            "ingredient_list": [
+                {
+                    "name": "coconut milk",
+                    "amount": 400
+                },
+                {
+                    "name": "vegetable stock",
+                    "amount": 500
+                },
+                {
+                    "name": "red chillies",
+                    "amount": 30
+                },
+                {
+                    "name": "garlic",
+                    "amount": 10
+                },
+                {
+                    "name": "rice nooldes",
+                    "amount": 100
+                },
+                {
+                    "name": "tiger prawns",
+                    "amount": 300
+                },
+                {
+                    "name": "fish sauce",
+                    "amount": 6
+                },
+                {
+                    "name": "tumeric",
+                    "amount": 2
+                }
+            ]
+        },
+        "8": {
+            "id": 8,
+            "name": "fish in a bag",
+            "preparation_time": 20,
+            "directions": ["Preheat the oven to 200C/180C Fan/Gas 6. Halve the courgette lenghtways and cut into thin slices. Halve the cherry tomatoes. Lay out a large sheet of foil, twice the size of the fish. Arrange the vegetables in an even layer on one side of the foil and season with salt and pepper. Lay the salmon on top and sprinkle over the mixed herbs.","Grate some of the lemon zest over the salmon, and then squeeze the juice, being careful to discard any pips. Fold the foil over the fish then fold the edges of the foil inwards to make a neat parcel. Before the final edge is sealed, spoon in the vegetable stock, and then close the final edge. Lay on a baking tray then bake for 15–20 minutes.","Meanwhile, add the rice to a a large pan with 200ml/7fl oz water and cover. Bring to the boil, then lower the heat and cook for 10-15 minutes until the water is absorbed. Use a fork to fluff up the rice. ","Take the salmon parcel out of the oven and carefully cut open as the steam will be very hot. Serve the salmon with the vegetables and rice."
+                ],
+            "category": "fish",
+            "ingredient_list": [
+                {
+                    "name": "courgette",
+                    "amount": 200
+                },
+                {
+                    "name": "tomatoes",
+                    "amount": 100
+                },
+                {
+                    "name": "salmon fillets",
+                    "amount": 300
+                },
+                {
+                    "name": "mixed herbs",
+                    "amount": 6
+                },
+                {
+                    "name": "vegetable stock",
+                    "amount": 400
+                }
+            ]
+        },
+        "9": {
+            "id": 9,
+            "name": "leek and potato soup",
+            "preparation_time": 20,
+            "directions": ["Place all the ingredients, except the chives into a saucepan and cook for 15 minutes or until cooked through","Add the chives and serve"
+                ],
+            "category": "soup",
+            "ingredient_list": [
+                {
+                    "name": "potato",
+                    "amount": 100
+                },
+                {
+                    "name": "leek",
+                    "amount": 100
+                },
+                {
+                    "name": "butter",
+                    "amount": 30
+                },
+                {
+                    "name": "milk",
+                    "amount": 150
+                },
+                {
+                    "name": "double cream",
+                    "amount": 150
+                }
+            ]
+        },
+        "10": {
+            "id": 10,
+            "name": "satay sauce",
+            "preparation_time": 15,
+            "directions": ["Blend all the ingredients together in the blender until smooth, leave in fridge to set. ","The taste should be sweet, nutty and spicy. It can be served with a variety of dishes including chicken, pork or prawn satay."
+                ],
+            "category": "sauce",
+            "ingredient_list": [
+                {
+                    "name": " coconut milk",
+                    "amount": 400
+                },
+                {
+                    "name": "peanuts",
+                    "amount": 500
+                },
+                {
+                    "name": "rice vinegar",
+                    "amount": 300
+                },
+                {
+                    "name": "sugar",
+                    "amount": 500
+                },
+                {
+                    "name": "curry paste",
+                    "amount": 15
+                }
+            ]
+        }
+    }
+}

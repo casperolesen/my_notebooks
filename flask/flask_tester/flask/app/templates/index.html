@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>API Documentation</title>
+</head>
+
+<body>
+    <h1>
+        Recipes api
+    </h1>
+    <div class="card">
+        <div class="card-body">
+            <h2>Get all recipes</h2>
+            <ul>
+                <li>URL</li>
+                <a href="/recipes">/recipes</a>
+                <li>METHOD</li>
+                GET
+                <li>URL PARAMS</li>
+                None
+                <li>QUERY PARAMS</li>
+                None
+                <li>Success Response</li>
+                <ul>
+                    <li>Code: 200</li>
+                    <li>Content: <code>{
+            "1": {
+              "category": "category name",
+              "name": "recipe name",
+              "preparation_time": "time in minutes"
+            },...}</code></li>
+                </ul>
+                <li>Error response</li>
+                <ul>
+                    <li>Code: 400</li>
+                    <li>Content: <code>
+            {"code":400,"error":"URL is not a valid resource on this server"}
+        </code></li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h2>Get recipe by id</h2>
+            <ul>
+                <li>URL</li>
+                <a href="/recipe/1">/recipe/:id</a>
+                <li>METHOD</li>
+                GET
+                <li>URL PARAMS</li>
+                Reguired: id=[integer]
+                <li>QUERY PARAMS</li>
+                None
+                <li>Success Response</li>
+                <ul>
+                    <li>Code: 200</li>
+                    <li>Content: <code>
+            {
+              "category": "category name",
+              "directions": [
+              "first step", "second step", ...
+                ],
+              "id": 1,
+              "ingredient_list": [
+                {
+                  "amount": "amount in grams",
+                  "name": "ingrendient name"
+                },
+               ...
+              ],
+              "name": "recipe name",
+              "preparation_time": "time in minutes"
+            }</code></li>
+                </ul>
+                <li>Error response</li>
+                <ul>
+                    <li>Code: 400</li>
+                    <li>Content: <code>
+            {"code":400,"error":"no recipe exist with id: ID"}
+        </code></li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
